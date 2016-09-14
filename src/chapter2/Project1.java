@@ -13,8 +13,6 @@ import util.IO;
 public class Project1 {
     public static void main(String[] args){
         double score = IO.readDouble("Enter a score bewtween 0.0 and 100.0");
-        
-        boolean b = (50 > 0)||(50 == 10);
  
         
         if(score > 65.0){
