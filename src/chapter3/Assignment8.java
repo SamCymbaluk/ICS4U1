@@ -31,8 +31,8 @@ public class Assignment8 {
         double sum = 0;
 
 
-        for (int i = 1; i <= 2; i++) {
-            IO.showMessage("Enter 5 grades");
+        for (int i = 1; i <= 20; i++) {
+            IO.showMessage("Enter 20 grades");
 
 
 
@@ -72,7 +72,7 @@ public class Assignment8 {
         }
         
         
-           double classAverage = (sum / 2);
+           double classAverage = (sum / 20);
             IO.showMessage("cumulative class average: " + classAverage);
             IO.showMessage("Class Minimum: " + minimum);
             IO.showMessage("Class Maximum: " + maximum);
