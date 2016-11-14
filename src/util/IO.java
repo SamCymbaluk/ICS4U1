@@ -58,8 +58,7 @@ public class IO {
        String s;
        s = JOptionPane.showInputDialog(prompt);
        if(s == null) return 0;
-       else if(s.length() == 0) return s.charAt(0);
-       else return '\n';
+       return s.charAt(0);
    }
    
    public static String readString(String prompt){
