@@ -13,7 +13,7 @@ import util.IO;
 public class Project3 {
     
     public static void main(String[] args){
-        int a,b,c,d,f;
+        int a,b,c,d,f;  
         a=b=c=d=f=0;
         
         char grade;
