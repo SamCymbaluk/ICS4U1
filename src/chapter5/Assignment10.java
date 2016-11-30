@@ -28,7 +28,7 @@ public class Assignment10 {
      * Determines the amount of spelling mistakes using the rule <i> i before e except after c </i>
      * @param paragraph The string to be spell checked.
      * @return an int representing the number of spelling mistakes. 
-     */
+     */ 
     public static int spellingMistakes(String paragraph){
         int mistakes = 0;
         
